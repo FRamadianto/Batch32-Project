@@ -1,0 +1,645 @@
+/* CSS NAV BAR */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); 
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 40px;
+}
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    height: 10vh;
+}
+
+nav div {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+}
+
+nav .left-side {
+    flex: 50%;
+    justify-content: flex-start;
+    align-items:center;
+
+}
+nav ul li .home {
+    color: orangered;
+    font-weight: 600;
+}
+nav .right-side {
+    flex: 50%;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+nav .right-side a {
+    background-color: orangered;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+/* CSS STYLE BLOG */
+
+.container {
+    flex: 100%;
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.containerC {
+    background-color:  #f2f2f2;
+    margin: auto;
+    width: 100%;
+    margin-bottom: -30px;
+}
+.container .containerC h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+.containerC .projectN {
+    width: 60%;
+    margin: auto;
+}
+.projectN input {
+    box-sizing: border-box;
+    width: 100%; 
+    background-color: rgb(225, 225, 225); 
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px; 
+    box-shadow: 5px 10px #888888; 
+
+}
+
+ .containerC .date {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-top: -10px;
+}
+.leftSide {
+    flex: 30%;
+}
+.rightSide {
+    flex: 30%;
+    margin-left: 30px;
+}
+.containerC .text {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+.containerC .text textarea {
+    box-sizing: border-box;
+    width: 100%; 
+    background-color: rgb(225, 225, 225); 
+    border: 1px solid rgb(199, 199, 199);
+    box-shadow: 5px 10px #888888; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    height: 150px;  
+    resize: none;
+}
+.dateStart input {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(225, 225, 225); 
+    border: 1px solid rgb(199, 199, 199);
+    box-shadow: 5px 10px #888888; 
+    border-radius: 5px;
+    padding: 10px; 
+    margin-top: 10px;
+}
+.endStart input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(225, 225, 225); 
+    border: 1px solid rgb(199, 199, 199);
+    box-shadow: 5px 10px #888888; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.containerC .check {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+} 
+
+.check .leftCheck {
+    flex: 30%;
+}
+.check .rightCheck {
+    flex: 30%;
+    display: inline;
+} 
+.containerC .upload {
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+}
+.upload .input-blog-image-group {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    box-shadow: 5px 10px #888888; 
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+.upload .input-blog-image-group label p {
+    font-size: 15px;
+    background-color:rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    width: 90px;
+    height: 40px;
+    display: block;
+    margin-left: -9px;
+    border-radius: 8px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.upload .input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+.button-group {
+    width: 60%;
+    text-align: right;
+    margin: auto;
+}
+.button-group button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-family: 'poppins';
+    background: #000;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.blog hr {
+    border: 1px solid #dbdbdb;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* STYLE MY PROJECT */
+.containerB {
+    width: 100%;
+    background-color: rgb(215, 219, 221);
+    margin: auto;
+    margin-top: -20px;
+
+}
+.containerB h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+.containerB .content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+
+}
+.containerB .content div {
+    background-color: rgb(247, 249, 249) ;
+    width: 325px;    
+    margin: 15px;
+}
+ .containerB .content .card1  {
+    /* margin-left: 45px; */
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+} 
+.content .card1 img {
+    border-radius: 10px;
+}
+.content .card1 h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    
+}
+.content .card1 h4 a {
+    text-decoration: none;
+    color: #000;
+}
+.content .card1 p {
+    font-weight: 200;
+    margin-top: 0;
+} 
+.content .card1 .p2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.content .card1 .image {
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+.content .card1 .image img {
+    margin-right: 10px;
+}
+.content .card1 .buttonEnd {
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+}
+.content .card1 .buttonEnd .left-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.content .card1 .buttonEnd .left-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;    
+}
+.content .card1 .buttonEnd .right-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.content .card1 .buttonEnd .right-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;   
+}
+.containerB .content .card2  {
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+} 
+.content .card2 img {
+    border-radius: 10px;
+}
+.content .card2 h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.content .card2 p {
+    font-weight: 200;
+    margin-top: 0;
+} 
+.content .card2 .p3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.content .card2 .image {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+.content .card2 .image img {
+    margin-right: 10px;
+}
+.content .card2 .buttonEnd {
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+}
+.content .card2 .buttonEnd .left-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.content .card2 .buttonEnd .left-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;    
+}
+.content .card2 .buttonEnd .right-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.content .card2 .buttonEnd .right-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;   
+}
+.containerB .content .card3  {
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+} 
+.content .card3 img {
+    border-radius: 10px;
+}
+.content .card3 h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.content .card3 p {
+    font-weight: 200;
+    margin-top: 0;
+} 
+.content .card3 .p4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.content .card3 .image {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+.content .card3 .image img {
+    margin-right: 10px;
+}
+.content .card3 .buttonEnd {
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+}
+.content .card3 .buttonEnd .left-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.content .card3 .buttonEnd .left-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;    
+}
+.content .card3 .buttonEnd .right-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.content .card3 .buttonEnd .right-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;   
+}
+.containerB .content .card4  {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+} 
+.content .card4 img {
+    border-radius: 10px;
+}
+.content .card4 h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.content .card4 p {
+    font-weight: 200;
+    margin-top: 0;
+} 
+.content .card4 .p5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.content .card4 .image {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+.content .card4 .image img {
+    margin-right: 10px;
+}
+.content .card4 .buttonEnd {
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+}
+.content .card4 .buttonEnd .left-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.content .card4 .buttonEnd .left-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;    
+}
+.content .card4 .buttonEnd .right-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.content .card4 .buttonEnd .right-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;   
+}
+
+.containerB .content .card5  {
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+} 
+.content .card5 img {
+    border-radius: 10px;
+}
+.content .card5 h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.content .card5 p {
+    font-weight: 200;
+    margin-top: 0;
+} 
+.content .card5 .p6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.content .card5 .image {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+.content .card5 .image img {
+    margin-right: 10px;
+}
+.content .card5 .buttonEnd {
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+}
+.content .card5 .buttonEnd .left-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.content .card5 .buttonEnd .left-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;    
+}
+.content .card5 .buttonEnd .right-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.content .card5 .buttonEnd .right-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;   
+}
+
+.containerB .content .card6  {
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+} 
+.content .card6 img {
+    border-radius: 10px;
+}
+.content .card6 h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.content .card6 p {
+    font-weight: 200;
+    margin-top: 0;
+} 
+.content .card6 .p7 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.content .card6 .image {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+.content .card6 .image img {
+    margin-right: 10px;
+}
+.content .card6 .buttonEnd {
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+}
+.content .card6 .buttonEnd .left-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.content .card6 .buttonEnd .left-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;    
+}
+.content .card6 .buttonEnd .right-side {
+    flex: 90%;
+    background-color: black;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.content .card6 .buttonEnd .right-side a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;   
+}

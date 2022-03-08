@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-me.css" />
+    <title>Document</title>
+    <script src="contact-me.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="left-side">
+            <img src="assets/logo!.png">
+
+            <ul>
+                <li><a class="home" href="home.html">Home</a></li>
+                <li><a href="MyProject.html">My Project</a></li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="container"> 
+        <header>
+            <h1>GET IN TOUCH</h1>
+        </header>
+        <form>
+            <div class="nama">
+                <label for="inputN">Name</label>
+                <input type="text" id="inputN" size="40" placeholder="Masukan nama anda">
+            </div>
+            
+            <div class="mail">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" placeholder="Masukan email anda">
+            </div>        
+    
+            <div class="nomor">
+                <label for="noHP">Phone Number</label>
+                <input type="number" id="noHP" placeholder="Masukan no handphone anda">
+            </div>
+    
+            <div class="kata">
+                <label for="kata1">Subject</label>
+                <select name="option" id="kata1">
+                    <option></option>
+                    <option value="Hiring">Im Hiring </option>
+                    <option value="Collaboration">Lets Collaboration</option>
+                    <option value="Talk">Lets Talk</option>
+                  </select>
+            </div>
+    
+            <div class="text">
+                 <label for="text1">Your Message</label>
+                 <textarea id="text1"></textarea>
+            </div>
+            
+            <button onclick="submitForm()" type="button"> Submit </button>
+            
+           
+        </form>
+    </div>
+    
+    
+    
+</body>
+</html>
